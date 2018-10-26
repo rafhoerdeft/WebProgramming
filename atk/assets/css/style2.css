@@ -1,0 +1,27 @@
+/* Page Loader ================================= */
+.page-loader-wrapper2 {
+  z-index: 99999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  /*background: #eee;*/
+  /*opacity: 0.4;*/
+  /*filter: alpha(opacity=40);*/
+  background:rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center; 
+}
+  .page-loader-wrapper2 p {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444; 
+  }
+  .page-loader-wrapper2 .loader {
+    position: relative;
+    top: calc(30% - 30px); 
+  }
